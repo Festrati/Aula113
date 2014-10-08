@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D139BF0919E4CC0400133DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D139BF0819E4CC0400133DD2 /* Foundation.framework */; };
+		D139BF0B19E4CC0400133DD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D139BF0A19E4CC0400133DD2 /* CoreGraphics.framework */; };
+		D139BF0D19E4CC0400133DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D139BF0C19E4CC0400133DD2 /* UIKit.framework */; };
+		D139BF1319E4CC0400133DD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D139BF1119E4CC0400133DD2 /* InfoPlist.strings */; };
+		D139BF1519E4CC0400133DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D139BF1419E4CC0400133DD2 /* main.m */; };
+		D139BF1919E4CC0400133DD2 /* AZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D139BF1819E4CC0400133DD2 /* AZAppDelegate.m */; };
+		D139BF1C19E4CC0400133DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D139BF1A19E4CC0400133DD2 /* Main.storyboard */; };
+		D139BF2119E4CC0400133DD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D139BF2019E4CC0400133DD2 /* Images.xcassets */; };
+		D139BF2819E4CC0400133DD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D139BF2719E4CC0400133DD2 /* XCTest.framework */; };
+		D139BF2919E4CC0400133DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D139BF0819E4CC0400133DD2 /* Foundation.framework */; };
+		D139BF2A19E4CC0400133DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D139BF0C19E4CC0400133DD2 /* UIKit.framework */; };
+		D139BF3219E4CC0400133DD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D139BF3019E4CC0400133DD2 /* InfoPlist.strings */; };
+		D139BF3419E4CC0400133DD2 /* Aula113Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D139BF3319E4CC0400133DD2 /* Aula113Tests.m */; };
+		D139BF3F19E4CC2300133DD2 /* AZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D139BF3E19E4CC2300133DD2 /* AZTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D139BF2B19E4CC0400133DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D139BEFD19E4CC0400133DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D139BF0419E4CC0400133DD2;
+			remoteInfo = Aula113;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D139BF0519E4CC0400133DD2 /* Aula113.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula113.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D139BF0819E4CC0400133DD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D139BF0A19E4CC0400133DD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D139BF0C19E4CC0400133DD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D139BF1019E4CC0400133DD2 /* Aula113-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aula113-Info.plist"; sourceTree = "<group>"; };
+		D139BF1219E4CC0400133DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D139BF1419E4CC0400133DD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D139BF1619E4CC0400133DD2 /* Aula113-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aula113-Prefix.pch"; sourceTree = "<group>"; };
+		D139BF1719E4CC0400133DD2 /* AZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZAppDelegate.h; sourceTree = "<group>"; };
+		D139BF1819E4CC0400133DD2 /* AZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZAppDelegate.m; sourceTree = "<group>"; };
+		D139BF1B19E4CC0400133DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D139BF2019E4CC0400133DD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D139BF2619E4CC0400133DD2 /* Aula113Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aula113Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D139BF2719E4CC0400133DD2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D139BF2F19E4CC0400133DD2 /* Aula113Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aula113Tests-Info.plist"; sourceTree = "<group>"; };
+		D139BF3119E4CC0400133DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D139BF3319E4CC0400133DD2 /* Aula113Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aula113Tests.m; sourceTree = "<group>"; };
+		D139BF3D19E4CC2300133DD2 /* AZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZTableViewController.h; sourceTree = "<group>"; };
+		D139BF3E19E4CC2300133DD2 /* AZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D139BF0219E4CC0400133DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D139BF0B19E4CC0400133DD2 /* CoreGraphics.framework in Frameworks */,
+				D139BF0D19E4CC0400133DD2 /* UIKit.framework in Frameworks */,
+				D139BF0919E4CC0400133DD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D139BF2319E4CC0400133DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D139BF2819E4CC0400133DD2 /* XCTest.framework in Frameworks */,
+				D139BF2A19E4CC0400133DD2 /* UIKit.framework in Frameworks */,
+				D139BF2919E4CC0400133DD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D139BEFC19E4CC0400133DD2 = {
+			isa = PBXGroup;
+			children = (
+				D139BF0E19E4CC0400133DD2 /* Aula113 */,
+				D139BF2D19E4CC0400133DD2 /* Aula113Tests */,
+				D139BF0719E4CC0400133DD2 /* Frameworks */,
+				D139BF0619E4CC0400133DD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D139BF0619E4CC0400133DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D139BF0519E4CC0400133DD2 /* Aula113.app */,
+				D139BF2619E4CC0400133DD2 /* Aula113Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D139BF0719E4CC0400133DD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D139BF0819E4CC0400133DD2 /* Foundation.framework */,
+				D139BF0A19E4CC0400133DD2 /* CoreGraphics.framework */,
+				D139BF0C19E4CC0400133DD2 /* UIKit.framework */,
+				D139BF2719E4CC0400133DD2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D139BF0E19E4CC0400133DD2 /* Aula113 */ = {
+			isa = PBXGroup;
+			children = (
+				D139BF1719E4CC0400133DD2 /* AZAppDelegate.h */,
+				D139BF1819E4CC0400133DD2 /* AZAppDelegate.m */,
+				D139BF3D19E4CC2300133DD2 /* AZTableViewController.h */,
+				D139BF3E19E4CC2300133DD2 /* AZTableViewController.m */,
+				D139BF1A19E4CC0400133DD2 /* Main.storyboard */,
+				D139BF2019E4CC0400133DD2 /* Images.xcassets */,
+				D139BF0F19E4CC0400133DD2 /* Supporting Files */,
+			);
+			path = Aula113;
+			sourceTree = "<group>";
+		};
+		D139BF0F19E4CC0400133DD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D139BF1019E4CC0400133DD2 /* Aula113-Info.plist */,
+				D139BF1119E4CC0400133DD2 /* InfoPlist.strings */,
+				D139BF1419E4CC0400133DD2 /* main.m */,
+				D139BF1619E4CC0400133DD2 /* Aula113-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D139BF2D19E4CC0400133DD2 /* Aula113Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D139BF3319E4CC0400133DD2 /* Aula113Tests.m */,
+				D139BF2E19E4CC0400133DD2 /* Supporting Files */,
+			);
+			path = Aula113Tests;
+			sourceTree = "<group>";
+		};
+		D139BF2E19E4CC0400133DD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D139BF2F19E4CC0400133DD2 /* Aula113Tests-Info.plist */,
+				D139BF3019E4CC0400133DD2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D139BF0419E4CC0400133DD2 /* Aula113 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D139BF3719E4CC0400133DD2 /* Build configuration list for PBXNativeTarget "Aula113" */;
+			buildPhases = (
+				D139BF0119E4CC0400133DD2 /* Sources */,
+				D139BF0219E4CC0400133DD2 /* Frameworks */,
+				D139BF0319E4CC0400133DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aula113;
+			productName = Aula113;
+			productReference = D139BF0519E4CC0400133DD2 /* Aula113.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D139BF2519E4CC0400133DD2 /* Aula113Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D139BF3A19E4CC0400133DD2 /* Build configuration list for PBXNativeTarget "Aula113Tests" */;
+			buildPhases = (
+				D139BF2219E4CC0400133DD2 /* Sources */,
+				D139BF2319E4CC0400133DD2 /* Frameworks */,
+				D139BF2419E4CC0400133DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D139BF2C19E4CC0400133DD2 /* PBXTargetDependency */,
+			);
+			name = Aula113Tests;
+			productName = Aula113Tests;
+			productReference = D139BF2619E4CC0400133DD2 /* Aula113Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D139BEFD19E4CC0400133DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "André Festrati";
+				TargetAttributes = {
+					D139BF2519E4CC0400133DD2 = {
+						TestTargetID = D139BF0419E4CC0400133DD2;
+					};
+				};
+			};
+			buildConfigurationList = D139BF0019E4CC0400133DD2 /* Build configuration list for PBXProject "Aula113" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D139BEFC19E4CC0400133DD2;
+			productRefGroup = D139BF0619E4CC0400133DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D139BF0419E4CC0400133DD2 /* Aula113 */,
+				D139BF2519E4CC0400133DD2 /* Aula113Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D139BF0319E4CC0400133DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D139BF2119E4CC0400133DD2 /* Images.xcassets in Resources */,
+				D139BF1319E4CC0400133DD2 /* InfoPlist.strings in Resources */,
+				D139BF1C19E4CC0400133DD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D139BF2419E4CC0400133DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D139BF3219E4CC0400133DD2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D139BF0119E4CC0400133DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D139BF3F19E4CC2300133DD2 /* AZTableViewController.m in Sources */,
+				D139BF1519E4CC0400133DD2 /* main.m in Sources */,
+				D139BF1919E4CC0400133DD2 /* AZAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D139BF2219E4CC0400133DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D139BF3419E4CC0400133DD2 /* Aula113Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D139BF2C19E4CC0400133DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D139BF0419E4CC0400133DD2 /* Aula113 */;
+			targetProxy = D139BF2B19E4CC0400133DD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D139BF1119E4CC0400133DD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D139BF1219E4CC0400133DD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D139BF1A19E4CC0400133DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D139BF1B19E4CC0400133DD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D139BF3019E4CC0400133DD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D139BF3119E4CC0400133DD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D139BF3519E4CC0400133DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D139BF3619E4CC0400133DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D139BF3819E4CC0400133DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aula113/Aula113-Prefix.pch";
+				INFOPLIST_FILE = "Aula113/Aula113-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D139BF3919E4CC0400133DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aula113/Aula113-Prefix.pch";
+				INFOPLIST_FILE = "Aula113/Aula113-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D139BF3B19E4CC0400133DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aula113.app/Aula113";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aula113/Aula113-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aula113Tests/Aula113Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D139BF3C19E4CC0400133DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aula113.app/Aula113";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aula113/Aula113-Prefix.pch";
+				INFOPLIST_FILE = "Aula113Tests/Aula113Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D139BF0019E4CC0400133DD2 /* Build configuration list for PBXProject "Aula113" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D139BF3519E4CC0400133DD2 /* Debug */,
+				D139BF3619E4CC0400133DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D139BF3719E4CC0400133DD2 /* Build configuration list for PBXNativeTarget "Aula113" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D139BF3819E4CC0400133DD2 /* Debug */,
+				D139BF3919E4CC0400133DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D139BF3A19E4CC0400133DD2 /* Build configuration list for PBXNativeTarget "Aula113Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D139BF3B19E4CC0400133DD2 /* Debug */,
+				D139BF3C19E4CC0400133DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D139BEFD19E4CC0400133DD2 /* Project object */;
+}
